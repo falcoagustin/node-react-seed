@@ -1,0 +1,53 @@
+@import 'colors';
+@import 'structures';
+
+
+html,
+input {
+  font-family: Verdana,sans-serif;
+}
+
+.header {
+  background-color: $mud;
+  border-radius: 2px;
+  color: $white;
+}
+
+.login-panel {
+  background-color: $mud;
+  border-radius: $default-border-radius;
+  color: $white;
+  left: 50%;
+  padding: $default-padding;
+  position: absolute;
+  top: 40%;
+  transform: translateX(-50%) translateY(-40%);
+  width: 50%;
+
+  h2 {
+    font-size: 40px;
+    margin-top: $default-margin;
+    text-align: center;
+  }
+}
+
+.row-input {
+  display: inline-block;
+  margin: 2%;
+  text-align: center;
+  width: 100%;
+
+  input {
+    border: 0;
+    border-radius: $default-border-radius;
+    font-size: 20px;
+    margin-left: $default-margin;
+    padding: 7px;
+    width: 70%;
+  }
+
+  input[type='submit'] {
+    cursor: pointer;
+    width: 30%;
+  }
+}
