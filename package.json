@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --use_strict index.js",
+    "start": "nodemon --use_strict server/app.js",
     "bundle": "webpack"
   },
   "dependencies": {
