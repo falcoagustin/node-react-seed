@@ -9,11 +9,11 @@ yarn install
 ```
 To start the server:
 ```sh
-npm start
+yar start
 ```
 To run webpack for bundling process:
 ```sh
-npm run bundle
+yarn bundle
 ```
 
 You can check on `package.json` under `scripts` to see what this commands do.
@@ -37,8 +37,8 @@ To add new behaviour just add another field in the `Object` exported and then in
 
 ```javascript
 // users/routes.js
+let controller = require('./controller');
 module.exports = function(router) {
-  let controller = require('./controller');
   router.route('/users').get(controller.getUsers);
   //router.route('/login').post(controller.loginUsers);
 };
@@ -49,7 +49,7 @@ Used [Sequelize] as ORM for PostgresSQL this time, but can be changed as wished.
 
 ```javascript
 // Supose we are under server/api/<folder>
-let db = require('./../db.js');
+let db = require('../db.js');
 ```
 
 # UI
