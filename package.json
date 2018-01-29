@@ -8,13 +8,16 @@
     "bundle": "webpack"
   },
   "dependencies": {
+    "draft-js": "^0.10.5",
+    "draft-js-markdown-shortcuts-plugin": "^0.3.0",
+    "draft-js-plugins-editor": "^2.0.4",
     "express": "^4.15.3",
     "nodemon": "^1.11.0",
     "path": "^0.12.7",
     "pg": "^6.2.3",
     "pg-hstore": "^2.3.2",
-    "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
     "sequelize": "^4.0.0",
     "webpack": "^2.6.1"
   },
