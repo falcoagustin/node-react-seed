@@ -26,11 +26,16 @@ export default class DemoEditor extends Component {
 
   render() {
     return (
-      <Editor
-        editorState={this.state.editorState}
-        onChange={this.onChange}
-        plugins={plugins}
-      />
+      <div>
+      The editor is down here invisible
+
+        <Editor
+          placeholder='something'
+          editorState={this.state.editorState}
+          onChange={this.onChange}
+          plugins={plugins}
+        />
+      </div>
     );
   }
 }
