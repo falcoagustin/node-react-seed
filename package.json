@@ -15,7 +15,7 @@
     "pg-hstore": "^2.3.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
-    "sequelize": "^4.0.0",
+    "sequelize": "^5.15.1",
     "webpack": "^2.6.1"
   },
   "devDependencies": {
